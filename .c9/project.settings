@@ -1,4 +1,10 @@
 {
+    "ace": {
+        "@newLineMode": "windows"
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
     "language": {
         "tern_defs": {
             "json()": {
