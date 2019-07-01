@@ -18,9 +18,9 @@ body {
     text-align: center;
     background-color: #a5294c;
     color: white;
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
+    font-size: 200%;
+    line-height: 120%;
+    height: 10%;
     display: inline-block;
     margin-left: 2.5%;
     list-style: none;
@@ -30,6 +30,7 @@ body {
 
 
 /* Navbar */
+
 
 nav {
     font-weight: bold;
@@ -94,7 +95,7 @@ nav a:hover {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 80%;
     width: 100px;
 }
 
