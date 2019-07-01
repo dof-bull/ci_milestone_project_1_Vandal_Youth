@@ -10,6 +10,7 @@ body {
 /* Header */
 
 .band-name-top {
+    font-weight: bold;
     text-align: center;
     background-color: pink;
     color: white;
@@ -27,7 +28,7 @@ body {
 /* Navbar */
 
 nav {
-    padding: 0px
+    font-weight: bold;
 }
 
 nav ul {
@@ -63,6 +64,7 @@ nav a:hover {
 /* Footer */
 
 .footer {
+    font-weight: bold;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -78,4 +80,30 @@ nav a:hover {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/* Modal */
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: pink;
+    border-color: pink;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: white;
+    border-color: white;
+    color: pink;
 }
