@@ -125,6 +125,7 @@ nav a:hover {
     padding: 4%;
     margin: 4%;
     vertical-align: middle;
+    white-space: nowrap;
 }
 
 .btn--pink:hover,
@@ -133,4 +134,8 @@ nav a:hover {
 .btn--pink:active:focus {
     background-color: white;
     color: #a5294c;
+}
+
+.contact {
+    font-size:100%;
 }
