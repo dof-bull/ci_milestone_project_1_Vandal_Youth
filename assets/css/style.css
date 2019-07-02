@@ -82,7 +82,25 @@ nav a:hover {
     opacity: 0.90;
 }
 
+/* Text */
 
+.text {
+    color: white;
+    background-color: #a5294c;
+    top: 50%;
+    position: fixed;
+    text-align: center;
+    width: 60vw;
+    left: 15%;
+    right: 15%;
+    font-size: 100%;
+    padding: 1%;
+}
+
+
+h3 {
+    font-weight: bold;
+}
 
 /* Footer */
 
@@ -106,6 +124,7 @@ nav a:hover {
     display: block;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
 
 .footer-section {
