@@ -131,7 +131,9 @@ h3 {
 /* Bookings */
 
 .bookingbox {
-    color: blue;
+    color: white;
+    background-color: #a5294c;
+    margin: 2.5%;
 }
 
 
