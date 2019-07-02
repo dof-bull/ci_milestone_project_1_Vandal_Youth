@@ -70,12 +70,24 @@ nav a:hover {
     list-style: none;
 }
 
+/* Images */
+
+.img1 {
+    position: absolute;
+    height: 94%;
+    width: 100%;
+    left: 0%;
+    top: 6%;
+    z-index: -1;
+    opacity: 0.90;
+}
+
 
 
 /* Footer */
 
 .footer {
-    
+
     position: fixed;
     font-weight: bold;
     width: 100%;
@@ -134,8 +146,4 @@ nav a:hover {
 .btn--pink:active:focus {
     background-color: white;
     color: #a5294c;
-}
-
-.contact {
-    font-size:100%;
 }
