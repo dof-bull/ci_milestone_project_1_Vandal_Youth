@@ -128,6 +128,13 @@ h3 {
 }
 
 
+/* Bookings */
+
+.bookingbox {
+    color: blue;
+}
+
+
 /*Music Table */
 
 .table {
@@ -145,7 +152,9 @@ h3 {
     transform: translate(-50%, -50%)
 }
 
-audio { width: 200px; }
+audio {
+    width: 200px;
+}
 
 
 /* Footer */
@@ -212,4 +221,18 @@ audio { width: 200px; }
 .btn--pink:active:focus {
     background-color: white;
     color: #a5294c;
+}
+
+.booknow {
+    position: fixed;
+    color: white;
+    background-color: #a5294c;
+    border-color: #a5294c;
+    font-size: 100%;
+    max-width: 40%;
+    display: inline-block;
+    padding: 4%;
+    margin: 4%;
+    vertical-align: middle;
+    white-space: nowrap;
 }

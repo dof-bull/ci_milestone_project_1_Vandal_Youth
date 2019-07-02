@@ -42,7 +42,21 @@
 
     <!--********Center********-->
     <section>
-
+        <div class="media bookingbox">
+            <img src="assets/images/weddings.jpg" class="mr-3" width="120px" height="120px" alt="Vandal Youth Wedding Band Photo">
+            <div class="media-body">
+                <h5 class="mt-0">Weddings</h5>
+                Make your special day unforgettable as you rock the night away to the band that taught us about the meaning of love.
+            </div>
+        </div>
+        <div class="media bookingbox">
+            <img src="assets/images/corporate.jpg" class="mr-3" width="120px" height="120px" alt="Vandal Youth Wedding Band Photo">
+            <div class="media-body">
+                <h5 class="mt-0">Corporate Events</h5>
+                Show your staff or clients you mean business with ultimate come together group.
+            </div>
+        </div>
+        <p><button class="btn btn-lg btn--cta btn--pink btn--1 booknow" data-toggle="modal" data-target="#signUpModal">BOOK NOW!</p>
 
     </section>
     <!--********/Center********-->
@@ -83,11 +97,11 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputname" class="col-form-label">Full Name:</label>
-                            <input type="text" class="form-control" id="exampleInputname" placeholder="Enter Name">
+                            <input type="text" class="form-control" id="exampleInputname" placeholder="Enter Name" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email Address:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
@@ -96,7 +110,7 @@
                         </div>
                         <div class="form-group">
                             <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text" placeholder="Type your message here..."></textarea>
+                            <textarea class="form-control" id="message-text" placeholder="Type your message here... " required></textarea>
                         </div>
                         <button type="submit" class="btn btn-success btn--pink">Submit</button>
                     </form>
