@@ -85,6 +85,27 @@ nav a:hover {
 }
 
 
+/* Videos */
+
+.video-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.p-video {
+    color: white;
+    background-color: #a5294c;
+    text-align: center;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
 /* Text */
 
 .text {
